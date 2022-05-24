@@ -1,4 +1,4 @@
-const { Thoughts, User } = require("../models");
+const { User, Thoughts } = require("../models");
 
 module.exports = {
     getThoughts(req, res) {
@@ -100,5 +100,3 @@ module.exports = {
         .catch(err => res.status(400).json(err));
     }
 }
-
-module.exports = thoughtControllers;
