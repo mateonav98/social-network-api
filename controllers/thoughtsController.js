@@ -87,7 +87,7 @@ module.exports = {
     deleteReaction(req, res) {
         Thoughts.findOneAndUpdate(
             { _id: req.params.thoughtId },
-            { $pull: { reactions: { reactionId: params.reactionId } } },
+            { $pull: { reactions: { reactionId: req.params.reactionId } } },
             { new: true }
         )
         .then(thoughtData => {
