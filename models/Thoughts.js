@@ -56,3 +56,12 @@ const thoughtsSchema = new Schema(
       id: false,
     }
   );
+
+  //create virtual property to retrieve reaction count
+thoughtsSchema.virtual("reactionCount").get(function() {
+    return this.reactions.length;
+  });
+  
+  const Thought = model("Thought", thoughtsSchema);
+  
+  module.exports = Thought;
