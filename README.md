@@ -12,7 +12,7 @@ Social network API where users can share their thoughts, react to friends’ tho
 * [Application Walkthrough](#application-walkthrough)
 * [Technologies Used](#technologies-used)
 * [Contributors](#contributors)
-* [License](#license)
+* [License](#mit-license)
 
 
 ## Installation
@@ -31,6 +31,8 @@ Social network API where users can share their thoughts, react to friends’ tho
 For a walkthrough of the application please click here:
 https://drive.google.com/file/d/1ZrINTTy-qRUIiEKGuk0nuYHA9lhuU9WX/view
 
+https://user-images.githubusercontent.com/65521134/170384153-923851e9-60b2-49c0-9d57-2b3a3794af72.mp4
+
 
 ## Technologies Used
 
@@ -40,7 +42,6 @@ https://drive.google.com/file/d/1ZrINTTy-qRUIiEKGuk0nuYHA9lhuU9WX/view
 4. Mongoose
 5. MongoDB
 6. Insomnia
-
 
 ## Contributors
 * Mateo Navarro [LinkedIn](https://www.linkedin.com/in/mateonav/) | [GitHub](https://github.com/mateonav98)
